@@ -27,3 +27,5 @@ clue(S):-onStreet([anglik,czerwony,_,_,_],S),
     onStreet([japończyk,_,go,_,_],S),
     next_to([norweg,_,_,_,_],[_,niebieski,_,_,_],S),
     next_to([_,_,_,herbata,_],[_,_,_,kakao,_],S).
+
+%zapytanie    clue(S),onStreet([_,_,_,_,zebra],S)
