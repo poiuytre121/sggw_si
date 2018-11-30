@@ -18,3 +18,4 @@ move(C,L1,L2,S1,S2):-jumpmove(C,L1,L2,S1,S2).
 move(C,L1,L2,S1,S2):-cornermove(C,L2,L1,S2,S1).
 move(C,L1,L2,S1,S2):-centralmove(C,L2,L1,S2,S1).
 move(C,L1,L2,S1,S2):-jumpmove(C,L2,L1,S2,S1).
+%play(w,s(w,w,w,e,b,b,b),s(b,b,b,e,w,w,w),[],S,R)
