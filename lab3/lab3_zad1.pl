@@ -27,3 +27,6 @@ fact(s(N),Y) :- fact(N,Q), times(s(N),Q,Y).
 fibonacci(zero,s(zero)).
 fibonacci(s(zero),s(zero)).
 fibonacci(s(s(X)),Y) :- fibonacci(s(X),Q), fibonacci(X,Z), add(Q,Z,Y).
+
+shownum(X,N) :- isequal(X, zero), N is 0.
+shownum(s(X),N) :- shownum(X,Y), N is Y + 1.
